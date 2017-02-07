@@ -65,8 +65,8 @@ public class GPSTracker extends Service implements LocationListener, SensorEvent
     protected LocationManager locationManager;
     private int thrashold = 30;
     private String policyNumber ="A0000700760";
-    //private String botPhone = "+12246371262";
-    private String botPhone = "+380674899033";
+    private String botPhone = "+12246371262";
+    //private String botPhone = "+380674899033";
 
     public GPSTracker() {
         super();
